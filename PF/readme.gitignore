@@ -1,0 +1,6 @@
+    mkdir my_empty_directory
+    echo "*" > my_empty_directory/.gitignore
+    echo "!.gitignore" >> my_empty_directory/.gitignore
+    git add my_empty_directory/.gitignore
+    git commit -m "Track directory, ignore contents"
+
